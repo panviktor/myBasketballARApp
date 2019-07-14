@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="oA5-h7-YAH" appends="YES" id="UVb-Uo-oJQ"/>
+                                    <outletCollection property="gestureRecognizers" destination="3TH-Ca-CYD" appends="YES" id="VFV-3v-cP6"/>
                                 </connections>
                             </arscnView>
                         </subviews>
@@ -38,9 +38,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="oA5-h7-YAH">
+                <tapGestureRecognizer id="3TH-Ca-CYD">
                     <connections>
-                        <action selector="screenTapped:" destination="BV1-FR-VrT" id="Myu-ZU-Zau"/>
+                        <action selector="screenTapped:" destination="BV1-FR-VrT" id="jrJ-Cv-oLj"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
