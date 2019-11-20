@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773C4DF82385D3900067B50D /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773C4DF72385D3900067B50D /* ARKit.framework */; };
+		773C4DFA2385D3970067B50D /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773C4DF92385D3970067B50D /* SceneKit.framework */; };
 		77592FE322D5F3B6000BA059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77592FE222D5F3B6000BA059 /* AppDelegate.swift */; };
 		77592FE522D5F3B6000BA059 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 77592FE422D5F3B6000BA059 /* art.scnassets */; };
 		77592FE722D5F3B6000BA059 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77592FE622D5F3B6000BA059 /* GameViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		773C4DF72385D3900067B50D /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		773C4DF92385D3970067B50D /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		77592FDF22D5F3B6000BA059 /* myBasketballARApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBasketballARApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77592FE222D5F3B6000BA059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77592FE422D5F3B6000BA059 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773C4DFA2385D3970067B50D /* SceneKit.framework in Frameworks */,
+				773C4DF82385D3900067B50D /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		773C4DF62385D3900067B50D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				773C4DF92385D3970067B50D /* SceneKit.framework */,
+				773C4DF72385D3900067B50D /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		77592FD622D5F3B6000BA059 = {
 			isa = PBXGroup;
 			children = (
 				77592FE122D5F3B6000BA059 /* myBasketballARApp */,
 				77592FE022D5F3B6000BA059 /* Products */,
+				773C4DF62385D3900067B50D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

@@ -183,7 +183,6 @@ extension GameViewController {
             }
         }
     }
-    
 }
 
 // MARK: - ARSCNViewDelegate
@@ -195,7 +194,6 @@ extension GameViewController: ARSCNViewDelegate {
         node.addChildNode(wall)
     }
 }
-
 
 // MARK: - SCNPhysicsContactDelegate
 
